@@ -1,0 +1,26 @@
+@tailwind base;
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(
+      to top,
+      rgb(128, 0, 255) 10%,
+      rgba(219, 39, 120, 0) 60%
+    ),
+    #082f49;
+  margin: 0;
+  font-family: "Rubik Maps", "Poppins", "Protest Revolution", "Shantell Sans",
+    system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
